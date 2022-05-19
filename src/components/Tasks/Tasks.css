@@ -1,0 +1,41 @@
+.container {
+   margin: 90px 18%;
+
+}
+
+.add-task {
+   display: flex;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+label {
+   display: flex;
+   cursor: pointer;
+}
+
+.add-task label button {
+   font-size: 24px;
+   line-height: 29px;
+   color: #FFFFFF;
+   background: #B47AEA;
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   border: none;
+   outline: none;
+   text-align: center;
+   vertical-align: center;
+   margin-right: 13px;
+}
+
+.add-task label button:hover {
+   background: #aa6de2;
+}
+
+.add-task label p {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+   color: #B47AEA;
+}
