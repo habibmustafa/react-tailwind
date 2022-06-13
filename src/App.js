@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function App() {
    return (
-      <div className='bg-gray-400 text-neutral-800 font-semibold text-2xl'>
-         App
+      <div className='h-screen bg-slate-200'>
+         <div className='text-xl font-medium h-15 bg-emerald-300'>App</div>
       </div>
    )
 }
